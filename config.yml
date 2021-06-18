@@ -1,0 +1,21 @@
+homebrew_packages:
+  - curl
+  - wget
+  - httpie
+  - fd
+  - fish
+  - jenv
+  - jq
+  - kind
+  - kube-ps1
+  - kubectx
+  - pssh
+  - tmux
+  - terraform
+  - tmuxinator
+  - tree
+  - xz
+  - zsh
+  - zsh-abbr
+  - zsh-completions
+  - iterm

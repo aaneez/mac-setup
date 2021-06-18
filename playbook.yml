@@ -1,0 +1,17 @@
+- name: Setup Mac
+  hosts: localhost
+  connection: local
+  gather_facts: false
+  vars_files:
+    - config.yml
+  tasks:
+    - name: Upgrade all homebrew packages
+      homebrew:
+        update_homebrew: yes
+        upgrade_all: yes
+    - name: Install Packages
+      homebrew:
+        state: present
+      loop: "{{ homebrew_packages }}"
+    - name: cleanup Brew
+      shell: brew cleanup
