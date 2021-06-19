@@ -1,5 +1,7 @@
 homebrew_packages:
   - curl
+  - git
+  - direnv
   - wget
   - pyenv
   - httpie
@@ -20,3 +22,5 @@ homebrew_packages:
   - zsh-abbr
   - zsh-completions
   - iterm
+  - hyper
+  - terminus

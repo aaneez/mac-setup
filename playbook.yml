@@ -15,3 +15,14 @@
       loop: "{{ homebrew_packages }}"
     - name: cleanup Brew
       shell: brew cleanup
+
+    - name: Install Python
+      shell: pyenv install -s 3.9.4
+
+    - name: Upgrade Pip
+      shell: python -m pip install --upgrade pip
+
+    - name: Install AWS CLI
+      pip:
+        name: awscli
+
