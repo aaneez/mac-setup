@@ -9,10 +9,12 @@
       homebrew:
         update_homebrew: yes
         upgrade_all: yes
-    - name: Install Packages
+
+    - name: Install Homebrew Packages
       homebrew:
         state: present
       loop: "{{ homebrew_packages }}"
+
     - name: cleanup Brew
       shell: brew cleanup
 
@@ -25,4 +27,3 @@
     - name: Install AWS CLI
       pip:
         name: awscli
-

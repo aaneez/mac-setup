@@ -1,5 +1,6 @@
 homebrew_packages:
   - curl
+  - python3
   - git
   - direnv
   - wget
@@ -24,3 +25,6 @@ homebrew_packages:
   - iterm
   - hyper
   - terminus
+
+homebrew_cask_packages:
+  - iterm2
