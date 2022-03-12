@@ -25,6 +25,7 @@ homebrew_packages:
   - iterm
   - hyper
   - terminus
+  - hey
 
 homebrew_cask_packages:
   - iterm2
