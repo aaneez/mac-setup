@@ -1,4 +1,5 @@
 homebrew_packages:
+  - ansible
   - asciinema
   - ccat
   - curl
