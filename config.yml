@@ -1,31 +1,32 @@
 homebrew_packages:
   - curl
-  - python3
-  - git
   - direnv
-  - wget
-  - pyenv
-  - httpie
   - fd
   - fish
+  - git
+  - hey
+  - httpie
+  - hyper
+  - iterm
   - jenv
   - jq
   - kind
   - kube-ps1
   - kubectx
   - pssh
-  - tmux
+  - pyenv
+  - python3
+  - terminus
   - terraform
+  - tmux
   - tmuxinator
   - tree
+  - wget
   - xz
   - zsh
   - zsh-abbr
   - zsh-completions
-  - iterm
-  - hyper
-  - terminus
-  - hey
+
 
 homebrew_cask_packages:
   - iterm2
