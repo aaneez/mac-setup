@@ -1,34 +1,50 @@
 homebrew_packages:
+  - asciinema
+  - ccat
   - curl
   - direnv
   - fd
   - fish
+  - fzf
+  - gh
   - git
   - hey
   - highlight
   - httpie
+  - helm
   - hyper
   - iterm
   - jenv
   - jq
   - kind
   - kube-ps1
+  - kubernetes-cli
   - kubectx
   - minikube
+  - openshift-cli
+  - pandoc
   - pass
   - pssh
+  - pipenv
+  - pv
+  - pwgen
   - pyenv
   - python3
+  - starship
   - terminus
   - terraform
   - tmux
   - tmuxinator
   - tree
   - wget
+  - watch
+  - vault
   - xz
+  - yq
   - zsh
   - zsh-abbr
   - zsh-completions
+  - zsh-autosuggestions
   - zsh-syntax-highlighting
 
 
