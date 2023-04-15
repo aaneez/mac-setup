@@ -1,7 +1,9 @@
 homebrew_packages:
   - ansible
   - asciinema
+  - bash-completion
   - ccat
+  - ccrypt
   - curl
   - direnv
   - fd
@@ -22,6 +24,7 @@ homebrew_packages:
   - kubernetes-cli
   - kubectx
   - minikube
+  - nmap
   - openshift-cli
   - pandoc
   - pass
