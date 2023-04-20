@@ -55,3 +55,8 @@ homebrew_packages:
 homebrew_cask_packages:
   - iterm2
   - postman
+  - dracula-terminal
+  
+# brew tap dracula/install
+# brew install --cask dracula-terminal
+
